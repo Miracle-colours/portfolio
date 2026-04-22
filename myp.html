@@ -1,0 +1,448 @@
+<!doctype html>
+<!-- <html lang="en"> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+          <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+      rel="stylesheet">
+
+          <!--My css  -->
+    <link rel="stylesheet" href="styless.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#hero" class="logo">Elvis_Colours.dev</a>
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div >
+        <div class="hero-tag">
+          <span></span>Open to internship &amp; collabs
+        </div>
+        <h1 class="hero-name">Elvis <br /><span class="hero-name-highlight">Colours.</span></h1>
+        <p class="hero-role"><em>CS Student</em> &nbsp;/&nbsp; Frontend Developer in progress</p>
+        <p class="hero-desc">
+           I'm a
+          Computer Science student currently learning to build for the web. I
+          know HTML &amp; CSS, I'm currently learning JavaScript, and I push
+          everything to GitHub. One project at a time.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-lime">See my work↓</a>
+          <a href="#contact" class="btn-outline">Say hello</a>
+        </div>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <div class="t-dot r"></div>
+          <div class="t-dot y"></div>
+          <div class="t-dot g"></div>
+          <span class="terminal-title">~/portfolio — zsh</span>
+        </div>
+
+        <div class="terminal-body">
+          <div class="terminal-line">
+            <span class="t-prompt">~$</span>
+            <span class="t-cmd">cat about.json</span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">{</span>
+          </div>
+
+          <div class="t-line">
+            <span class="t-out">
+              &nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-val">"CS Student"</span>,
+            </span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">
+              &nbsp;&nbsp;<span class="t-key">"knows"</span>:
+              <span class="t-val">["HTML", "CSS"]</span>,
+            </span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">
+              &nbsp;&nbsp;<span class="t-key">"learning"</span>:
+              <span class="t-val orange">"JavaScript"</span>,
+            </span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">
+              &nbsp;&nbsp;<span class="t-key">"tools"</span>:
+              <span class="t-val">["VS Code", "Git"]</span>,
+              </span>
+          </div>
+          <div class="t-line">
+            <span class="t-out">
+              &nbsp;&nbsp;<span class="t-key">"available"</span>: <span class="t-val">true</span>
+            </span>
+          </div>
+          <div class="t-line">
+            <span class="t-out"></span>
+            <span>}</span>
+          </div>
+          <div class="t-line" style="margin-top: 8px;">
+            <span class="t-prompt">~$</span><span class="t-cursor"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <p class="section-eyebrow ">001 - About</p>
+      <h2 class="section-title ">Who I am.</h2>
+      <div class="about-grid">
+        <div class="about-body ">
+          <p>
+            I'm a <strong>Computer Science student</strong> who got hooked on
+            frontend development. It started with HTML — understanding how a
+            browser turns raw text into a webpage — then CSS, where I learned to
+            make things actually look good. Now I'm deep into
+            <strong>JavaScript</strong>, slowly making things interactive.
+          </p>
+          <p>
+            Every project I build teaches me something I didn't know before. I
+            work in <strong>VS Code</strong>, version control everything with
+            <strong>Git &amp; GitHub</strong>, and I'm not afraid to break
+            things — because that's how I learn fastest.
+          </p>
+          <p>
+            I'm looking for opportunities to
+            <strong>grow</strong>, <strong>collaborate</strong>,
+            <strong>and contribute</strong> — whether that's an internship, an
+            open-source project, or just feedback on my code.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="info-card">
+            <div class="info-icon">🎓</div>
+            <div>
+              <div class="info-label">Status</div>
+              <div class="info-value">CS Student</div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">💻</div>
+            <div>
+              <div class="info-label">Focus</div>
+              <div class="info-value">Frontend Development</div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+              <div class="info-label">Location</div>
+              <div class="info-value">Lagos, Nigeria</div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">🚀</div>
+            <div>
+              <div class="info-label">Goal</div>
+              <div class="info-value">Internship / Collab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <p class="section-eyebrow">002 - Skills</p>
+      <h2 class="section-title">what I Know</h2>
+      <div class="skills-grid">
+        <div class ="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <span>📄</span>
+              <span class="sk-name">HTML5</span>
+              <span class="sk-cat">markup</span>
+            </div>
+            <div class="flip-back">
+              <span class="sk-badge solid">Solid</span>
+              <span class="sk-note">Semantic elements,forms accessibility</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <span>🎨</span>
+              <span class="sk-name">CSS</span>
+              <span class="sk-cat">Styling</span>
+            </div>
+            <div class="flip-back">
+              <span class="sk-badge solid">Solid</span>
+              <span class="sk-note">Flexbox,grid,animations,responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <span>⚡</span>
+              <span class="sk-name">JavaScript</span>
+              <span class="sk-cat">Scripting</span>
+            </div>
+            <div class="flip-back">
+              <span class="sk-badge learning">Learning</span>
+              <span class="sk-note">DOM manipulation,events,fetch API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <span>🖥</span>
+              <span class="sk-name">VS Code</span>
+              <span class="sk-cat">Editor</span>
+            </div>
+            <div class="flip-back">
+              <span class="sk-badge tool">Tool</span>
+              <span class="sk-note">Extensions,shortcut,live preview</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <span>🌿</span>
+              <span class="sk-name">Git</span>
+              <span class="sk-cat">Version Control</span>
+            </div>
+            <div class="flip-back">
+              <span class="sk-badge learning">Learning</span>
+              <span class="sk-note">Branches,commits,pull requests</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <p class="section-eyebrow reveal">003 - Projects</p>
+      <h2 class="section-title reveal">What i've built.</h2>
+      <div class="projects-layout">
+        <div class="proj-card span2 reveal">
+          <div style="flex: 1;">
+            <p class="proj-number">// 01-Featured</p>
+            <h3 class="proj-title">Student Enrolment Form</h3>
+            <p class="proj-desc">
+               A fully structured multi-section web form built with pure HTML
+              &amp; CSS. Uses fieldset grouping for Personal Details and Account
+              Details, semantic form elements, custom radio buttons, optgroup
+              dropdowns, file upload, and built-in validation. No JavaScript
+              needed.
+            </p>
+             <div class="proj-tags">
+              <span class="ptag">HTML5</span>
+              <span class="ptag">CSS3</span>
+              <span class="ptag">Forms</span>
+              <span class="ptag">Responsive</span>
+              <span class="ptag">Validation</span>
+            </div>
+            <div class="proj-links">
+              <a href="#" class="proj-link">↗ Live Demo</a>
+              <a href="#" class="proj-link">⌥ GitHub</a>
+            </div>
+          </div>
+          <div class="proj-visual">
+             <svg width="100" height="80" viewBox="0 0 100 80" fill="none">
+              <rect
+                x="6"
+                y="6"
+                width="88"
+                height="68"
+                rx="5"
+                stroke="#b6f542"
+                stroke-width="1.2"
+                opacity="0.5"
+              />
+              <rect
+                x="14"
+                y="16"
+                width="40"
+                height="5"
+                rx="2"
+                fill="#b6f542"
+                opacity="0.5"
+              />
+              <rect
+                x="14"
+                y="27"
+                width="72"
+                height="5"
+                rx="2"
+                fill="#4da6ff"
+                opacity="0.4"
+              />
+              <rect
+                x="14"
+                y="38"
+                width="60"
+                height="5"
+                rx="2"
+                fill="#b6f542"
+                opacity="0.3"
+              />
+              <rect
+                x="14"
+                y="49"
+                width="72"
+                height="5"
+                rx="2"
+                fill="#4da6ff"
+                opacity="0.3"
+              />
+              <rect
+                x="14"
+                y="60"
+                width="24"
+                height="9"
+                rx="3"
+                fill="#b6f542"
+                opacity="0.8"
+              />
+              <line
+                x1="6"
+                y1="14"
+                x2="94"
+                y2="14"
+                stroke="#b6f542"
+                stroke-width="1"
+                opacity="0.3"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="proj-card reveal">
+          <p class="proj-number">// 02</p>
+          <h3 class="proj-title">This Portfolio</h3>
+          <p class="proj-desc">My personal portfolio site is built from scratch with HTML &amp; CSS only. Custom layout,scroll animation,responsive grid-no frameworks,no libraries.
+          </p>
+        <div class="proj-tags">
+          <span class="ptag">HTML</span>
+          <span class="ptag">CSS</span>
+          <span class="ptag">Animations</span>
+        </div>
+        <div class="proj-links">
+          <a href="#" class="proj-link">↗ Live</a>
+          <a href="#" class="proj-link">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span>In progress</span>
+        <p class="proj-number">// 03</p>
+        <h3 class="proj-title">JS Project-TBD</h3>
+        <p class="proj-desc">Currently learning JavaScript and  building interactive web app. Watch my Github-this slot  will soon be filled soon.
+        </p>
+      <div class="proj-tags">
+        <span class="ptag">JavaScript</span>
+        <span class="ptag">Coming Soon</span>
+      </div>
+      <div class="proj-links">
+        <a href="#" class="proj-link">⌥ GitHub</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <p class="section-eyebrow reveal">004-CONTACT</p>
+        <h2 class="section-title reveal">Let's talk</h2>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="contact-desc">
+              I'm a CS student actively building my skills and looking for an internship,coollabs,or just good feedback on my work. Whether you're a fellow student,a developer,or a recruiter-hit me up
+            </p>
+            <div class="contact-links">
+             <a href="mailto:youremail@gmail.com" class="c-link">
+              <div class="c-icon">✉</div>
+            <div>
+              <div class="c-label ">Email</div>
+              <div class="c-val">coloursmunachi@gmail.com</div>
+            </div>
+             </a> 
+             <a href="https://github.com/miracle-colours/"
+              class="c-link"
+              target="_blank">
+              <div class="c-icon"
+                style="
+                  font-size: 12px;
+                  font-weight: 700;
+                  font-family: jetbrains mono, monospace;
+                  "
+                >
+                gh
+              </div>
+              <div>
+                <div>Github</div>
+                <div>github.com/your handle</div>
+              </div>
+             </a>
+             <a href="https://linkedin.com/in/yourname"
+              class="c-link"
+              target="_blank">
+
+              <div class="c-icon"
+                style="
+                  font-size: 12px;
+                  font-weight: 700;
+                  font-family: var(--mono);
+                  "
+                >
+                x
+              </div>
+              <div>
+                <div>LinkedIn</div>
+                <div>linkedin.com/in/yourname</div>
+              </div>
+             </a>
+            </div>
+          </div>
+          <form class="form reveal">
+            <div>
+              <label class="form-label" for="name">Name</label><br>
+              <input class= "form-input" type="text" id="name" name="name" placeholder="Your name" />
+            </div>
+            <div>
+              <label class="form-label" for="email">Email</label><br>
+              <input class="form-input" type="email" id="email" name="email" placeholder="Your email" />
+            </div>
+            <div>
+              <label class="form-label" for="message">Message</label><br>
+              <textarea class="form-textarea" id="message" name="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn-lime" style="align-self: flex-start;">Send it →</button>
+          </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <span>© 2026 Elvis Colours-Built with HTML &amp; CSS</span>
+      <span class="hi">// keep building</span>
+    </footer>
+  </body>     
+</html>
