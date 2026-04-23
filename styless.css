@@ -303,6 +303,7 @@ nav {
   max-width: 1200px;
   border-top: 1px solid #1c2631;
   margin: 0 auto;
+  overflow: visible;
 }
 .section-eyebrow {
   font-family: "JetBrains Mono", monospace;
@@ -408,6 +409,7 @@ nav {
   height: 170px;
   perspective: 800px;
   cursor: pointer;
+  position: relative;
 }
 .flip-inner {
   width: 100%;
@@ -617,6 +619,7 @@ nav {
   transform: translateX(4px);
 }
 .c-icon {
+  color: #b6f542;
   width: 36px;
   height: 36px;
   background: rgba(182, 245, 66, 0.07);
@@ -630,12 +633,13 @@ nav {
 }
 .c-label {
   font-size: 10px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: outfit, sans-serif;
   color: #3d5470;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .c-val {
+  font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   font-weight: 600;
   color: #c8ddef;
