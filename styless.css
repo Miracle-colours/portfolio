@@ -17,7 +17,7 @@ body {
   animation: 0.8s fade-in ease both;
 }
 
-/* nav */
+/* Nav Section */
 nav {
   display: flex;
   justify-content: space-between;
@@ -99,7 +99,7 @@ nav {
   border-color: #243040;
 }
 
-/* hero */
+/* Hero Section */
 #hero {
   min-height: 100vh;
   display: grid;
@@ -221,7 +221,7 @@ nav {
   color: #b6f542;
   border-color: #b6f542;
 }
-/* terminal */
+/* Terminal Section */
 .hero-terminal {
   background-color: #0f1419;
   border: 1px solid #243040;
@@ -297,7 +297,7 @@ nav {
   animation: blink 1s step-end infinite;
 }
 
-/* sections */
+/* Sections Section */
 .section {
   padding: 80px 48px;
   max-width: 1200px;
@@ -331,7 +331,7 @@ nav {
   line-height: 1.1;
 }
 
-/* about */
+/* About Section*/
 .about-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -398,7 +398,7 @@ nav {
   margin-top: 2px;
 }
 
-/* skills */
+/* Skills Section*/
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -478,7 +478,7 @@ nav {
   text-align: center;
   line-height: 1.6;
 }
-/* projects */
+/* Projects Section */
 .projects-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -583,7 +583,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* contact */
+/* Contact Section */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -680,7 +680,7 @@ nav {
   resize: vertical;
 }
 
-/* footer */
+/* Footer Section*/
 footer {
   border-top: 1px solid #1c2631;
   padding: 24px 48px;
@@ -697,7 +697,7 @@ footer {
   color: #b6f542;
 }
 
-/* reveal animation */
+/* Reveal Animation */
 .reveal {
   opacity: 0;
   transform: translateY(20px);
