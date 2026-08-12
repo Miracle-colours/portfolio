@@ -8,7 +8,7 @@ I’m a Computer Science student learning frontend development.
 
 ## Live Demo
 
-[View Portfolio](https://portfolio-rose-rho-21.vercel.app/)
+Project url:(https://portfolio-rose-rho-21.vercel.app/)
 
 ## Tech Stack
 
